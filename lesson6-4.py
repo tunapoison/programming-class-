@@ -17,7 +17,7 @@ while count < 3:
 media = sum(notas) / len(notas)
 
 if faltas > 10:
-    print("Reprovado por notas.")
+    print("Reprovado por faltas.")
 else:
     if media >= 10:
         print("Aprovado.")
